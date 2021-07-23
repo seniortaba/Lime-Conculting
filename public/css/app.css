@@ -1,0 +1,25 @@
+.desc {
+    max-height:150px;
+    display:block;
+    padding:10px;
+    overflow:hidden;
+    position: relative;
+}
+
+
+.desc span {
+    position: absolute;
+    right: 10px;
+    bottom: 1px;
+    background-color: #666666;
+    border-radius: 6px;
+    padding: 4px 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.desc.full {
+    max-height: inherit;
+    height: auto !important;
+    overflow: auto !important;
+}
